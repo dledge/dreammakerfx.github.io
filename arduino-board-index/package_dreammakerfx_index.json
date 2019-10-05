@@ -1,0 +1,57 @@
+{
+  "packages": 
+    [
+      {
+        "name": "DreanMaker FX by Run Jump Labs",
+        "maintainer": "Run Jump Labs",
+        "websiteURL": "https://dreammakerfx.com",
+        "email": "info@dreammakerfx.com",
+
+        "platforms": [
+          {
+            "name": "DreamMaker FX",
+            "architecture": "samd",
+            "version": "1.1.0",
+            "category": "Run Jump Labs",
+            "url": "https://dreammakerfx.github.io/arduino-board-index/boards/adafruit-samd-1.1.0.tar.bz2",
+            "archiveFileName": "adafruit-samd-1.1.0.tar.bz2",
+            "checksum": "SHA-256:c790e7fc2eaf0680585fa7764cb6b3ef2ae942c8b4fb355bea032e819d8464fe",
+            "size": "53796966",         
+            "boards": [
+              {
+                "name": "Dream Lemur"
+              },         
+            ],
+            "toolsDependencies": [
+              {
+                "name": "arm-none-eabi-gcc",
+                "packager": "arduino",
+                "version": "4.8.3-2014q1"
+              },
+              {
+                "name": "bossac",
+                "packager": "arduino",
+                "version": "1.8.0-48-gb176eee"
+              },
+              {
+                "name": "openocd",
+                "packager": "arduino",
+                "version": "0.9.0-arduino"
+              },
+              {
+                "name": "CMSIS",
+                "packager": "arduino",
+                "version": "4.5.0"
+              },
+              {
+                "name": "CMSIS-Atmel",
+                "packager": "arduino",
+                "version": "1.2.0"
+              }
+            ],          
+          },
+      ],
+      "tools":[]
+    }
+  ]
+}
